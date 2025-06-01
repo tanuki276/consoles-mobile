@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "手机控制台",
   "version": "1.0",
-  "description": "Webページにカスタムコンソールを追加してJSコードを実行できるDevツール風UI",
+  "description": "在网页上添加自定义控制台，能够执行JavaScript代码，具有开发者工具风格的用户界面。",
   "permissions": ["scripting", "activeTab"],
   "host_permissions": ["<all_urls>"],
   "action": {
