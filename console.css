@@ -1,0 +1,35 @@
+#custom-console {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #111;
+  color: #0f0;
+  padding: 10px;
+  font-family: monospace;
+  z-index: 9999;
+}
+#console-input {
+  width: 90%;
+  height: 60px;
+  background: #222;
+  color: #0f0;
+  border: none;
+  resize: none;
+}
+#console-run {
+  width: 8%;
+  height: 60px;
+  background: #0f0;
+  color: #000;
+  font-weight: bold;
+}
+#console-output {
+  max-height: 150px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  background: #000;
+  color: #0f0;
+  margin-top: 5px;
+  padding: 5px;
+}
