@@ -1,7 +1,7 @@
 const container = document.createElement('div');
 container.innerHTML = `
   <div id="custom-console" style="position:fixed;bottom:0;left:0;width:100%;background:#111;color:#0f0;font-family:monospace;z-index:99999;padding:8px;">
-    <textarea id="console-input" placeholder="JavaScriptを入力..." style="width:80%;height:60px;background:#000;color:#0f0;"></textarea>
+    <textarea id="console-input" placeholder="JavaScript✏️" style="width:80%;height:60px;background:#000;color:#0f0;"></textarea>
     <button id="console-run">▶</button>
     <pre id="console-output" style="max-height:200px;overflow:auto;background:#000;padding:5px;margin-top:5px;"></pre>
   </div>
